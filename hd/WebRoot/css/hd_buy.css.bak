@@ -1,0 +1,119 @@
+
+ a:hover {
+	color:red;
+ 
+ }
+ 
+ ul li a:hover {
+	color:red;
+ 
+ }
+ 
+ .buy_left {
+	width:205px;
+	height:500px;
+	position:absolute;
+	top:0;
+	left:0;
+	
+}
+
+ .buy_left ul {
+	color:#D4D4D4;
+ 
+ }
+ 
+ 
+  .buy_left ul  li  {
+	line-height:20px;
+  
+  }
+ 
+
+  .buy_left ul  li  a{
+	font-size:13px;
+	color:black;
+  
+  }
+
+  .buy_left ul  li  a:hover {
+	color:#FF3C3C;
+  
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .buy_right {
+	width:950px;
+	height:4820px;
+	float:left;
+	position:absolute;
+	top:254px;
+	right:80px;
+	
+}
+
+ .buy_right .img_1 {
+	float:left;
+	margin-top:5px;
+ 
+ }
+ 
+  .buy_right ul  {
+	color:grey;
+	font-size:20px;
+	padding-top:3px;
+  }
+ .buy_right ul li {
+	float:left;
+	margin: 0 10px;
+
+ 
+ }
+ 
+
+ 
+  .buy_right ul li a {
+	font-size:13px;
+	color:black;
+  
+  }
+  
+.buy_right .right_main {
+	width:950px;
+	height:4820px;
+	margin-top:35px;
+	border:1px solid #DBDBDB;
+
+}
+
+
+.buy_right .right_main .main_one {
+	width:950px;
+	height:38px;
+	background:#EBEBEB;
+	border-bottom:1px solid #CE0E0E;
+}
+
+.buy_right .right_main .main_one p {
+	line-height:38px;
+	margin:0 0 0 20px;
+	color:#404040;
+	font-weight:bold;
+
+}
+
+.red {
+	color:red;
+	font-weight:bold;
+}

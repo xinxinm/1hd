@@ -1,0 +1,47 @@
+var n=0;
+var timer=null;
+var $p=$(" .box .icon  li p");//把p存储的地址复制给$p
+var $img=$('.box  .img');
+$('.icon li').hover(function(){
+	//获取鼠标移动上去的图标索引$(this),代表三个li，鼠标移动到谁上面指代谁
+	n=$(this).index();
+	//jq自定义动画，在多长时间内改变	
+	$(this).find("p").css("width","30px").parent().siblings().find("p").css("width","0px");
+	$img.animate({'left':-900*n+'px'},500);
+	n++;
+
+});
+//鼠标移动到大盒子停止定时器
+
+$(".box").hover(function(){
+	clearInterval(timer);
+	$p.eq(n-1).stop().css("width","30px");//上面它仅仅只是清楚的定时器，需要两个都清楚，动画也需要清除
+},function(){
+	$p.eq(n-1).stop().css("width","0px");
+	n-=1;//让n减去1
+
+	autoPlay();//鼠标移动开开始定时器	
+});
+
+autoPlay()
+function autoPlay(){
+	timer=setInterval(auto,2500); //可以吧这里的function()变为auto
+
+};
+
+function auto() {
+	$p.eq(n).animate({"width":"30px"},2000,function(){
+		//等动画执行完成在执行
+		$(this).css('width','0px');
+
+		$img.animate({'left':-330*n+'px'},500);
+	
+	});//获取到索引为n的p
+	n++;
+	n%=3;
+	/*if(n>2)
+	{
+		n=0;
+	}*/
+
+}

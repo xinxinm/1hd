@@ -1,0 +1,343 @@
+body {
+	background:#F5F5F5;
+
+}
+
+
+#hd_middle {
+	width:100%;
+	background:#F5F5F5;
+	height:1650px;
+}
+#hd_middle_main {
+	width:1200px;
+	margin:0 auto;
+
+}
+#hd_middle #hd_middle_main #hd_middle_nav {
+	width:1200px;
+	height:35px;
+	background:#F33939;
+	margin:0 auto;
+
+}
+
+#hd_middle #hd_middle_main #hd_middle_nav ul {
+	margin:0 0 0 240px;
+}
+
+#hd_middle #hd_middle_main  #hd_middle_nav ul li {
+	width:89px;
+	height:35px;
+	float:left;
+	line-height:35px;
+	text-align:center;
+	cursor:pointer;
+	
+}
+
+#hd_middle #hd_middle_main  #hd_middle_nav ul li a {
+	color:#fff;
+	font-size:13px;
+	font-weight:bold;
+}
+
+#hd_middle  #hd_middle_main #hd_middle_nav ul li:hover {
+	background:#C40000;
+
+}
+
+#hd_middle #hd_middle_main #hd_middle_nav ul .first_li {
+	width:62px;
+	background:white;
+	
+
+}
+#hd_middle #hd_middle_main #hd_middle_nav ul .first_li a {
+	color:red;
+}
+
+#hd_middle #hd_middle_main #hd_middle_nav ul .first_li:hover {
+	background:#fff;
+}
+
+
+.box {
+	position:relative;
+	width:900px;
+	height:350px;
+	overflow:hidden;
+	float:left;
+	margin-top:10px;
+}
+
+.box ul.img {
+	position:absolute;
+	left:0;
+	width:2700px;
+	float:left;
+	display:block;
+}
+
+.box  ul.img li {
+	float:left;
+}
+
+.box  ul.icon {
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	text-align:center;
+}
+
+.box ul.icon  li {
+	width:30px;
+	height:4px;
+	background:#DDDDDD;
+	display:inline-block;
+}
+
+.box ul.icon  li p {
+	width:0px;
+	height:4px;
+	background:red;
+}
+
+#hd_middle #hd_middle_main .sale_right {
+	width:290px;
+	height:300px;
+	background:white url("../images/hd_sale_1.5.png");
+	border:1px solid #E9E9E9;
+	margin-top:10px;
+	float:right;
+}
+
+#hd_middle #hd_middle_main .sale_right .bt1 {
+	width:198px;
+	height:72px;
+	background:url("../images/hd_sale_1.6.png") no-repeat left -415px;
+	border:none;
+	line-height:72px;
+	font-size:20px;
+	color:white;
+	font-weight:bold;
+	font-family:'Microsoft yahei';
+	margin:20px 10px 50px 50px;
+	cursor:pointer;
+}
+
+#hd_middle #hd_middle_main .sale_right .bt2 {
+	width:198px;
+	height:72px;
+	background:url("../images/hd_sale_1.6.png") no-repeat left -415px;
+	border:none;
+	line-height:72px;
+	font-size:20px;
+	color:white;
+	font-weight:bold;
+	font-family:'Microsoft yahei';
+	margin:-20px 10px 50px 50px;
+	cursor:pointer;
+}
+
+#hd_middle #hd_middle_main  .sale_reg {
+	width:100%;
+	height:75px;
+	background:#87C8C4;
+	margin:-18px 0 0 0;
+	position:relative;
+	z-index:1;
+}
+
+#hd_middle #hd_middle_main  .sale_reg .sale_reg_bg {
+	width:100%;
+	height:5px;
+	background:url("../images/hd_sale_1.7.png");
+	position:absolute;
+	top:0px;
+	left:0;
+	z-index:5;
+	margin:0px 0 0 0;
+}
+#hd_middle #hd_middle_main  .sale_reg p {
+	font-size:20px;
+	font-weight:bold;
+	font-family:'Microsoft yahei';
+	color:#3D6A67;
+	line-height:75px;
+	padding:0 65px;
+}
+
+#hd_middle #hd_middle_main  .sale_reg p a {
+	color:#3D6A67;
+}
+
+#hd_middle #hd_middle_main  .sale_reg p a:hover {
+	color:#4A8989;
+}
+
+#hd_middle #hd_middle_main #fill_form {
+	height:750px;
+	border:1px solid #E9E9E9;
+	background:white;
+}
+
+#hd_middle #hd_middle_main #fill_form p {
+	margin:25px 0 0 25px;
+	color:#666666;
+	font-size:15px;
+}
+
+#hd_middle #hd_middle_main #fill_form p a {
+	color:#0066CC;
+}
+
+#hd_middle #hd_middle_main #fill_form  .form_left {
+	width:600px;
+	height:600px;
+	margin:50px 0 0 25px;
+	float:left;
+}
+
+#hd_middle #hd_middle_main #fill_form  .form_left p {
+	color:#666666;
+	font-size:16px;
+	font-weight:bold;
+	font-family:'Microsoft yahei';
+	float:left;
+}
+
+#hd_middle #hd_middle_main #fill_form  .form_left p span {
+	color:#FF875A;
+	font-weight:bold;
+	padding-right:10px;
+	float:left;
+	
+}
+
+
+#hd_middle #hd_middle_main #fill_form  .form_left form  {
+	clear:both;
+	color:#666666;
+	font-size:13px;
+
+}
+
+#hd_middle #hd_middle_main #fill_form  .form_left form  #t1 {
+	width:200px;
+	height:30px;
+	margin:50px 0 0 10px;
+	border:1px solid #BBBBBB;
+
+}
+
+#hd_middle #hd_middle_main #fill_form  .form_left form  #t2 {
+	width:200px;
+	height:30px;
+	margin:0px 0 0 10px;
+	border:1px solid #BBBBBB;
+
+}
+
+#hd_middle #hd_middle_main #fill_form  .form_left form  #t3 {
+	width:470px;
+	height:30px;
+	margin:20px 20px 0 10px;
+	border:1px solid #BBBBBB;
+
+}
+
+#hd_middle #hd_middle_main #fill_form  .form_left form  .t4 {
+	width:200px;
+	height:30px;
+	margin:20px 0 0 10px;
+	border:1px solid #BBBBBB;
+	
+}
+
+
+
+select {
+  /*Chrome和Firefox里面的边框是不一样的，所以复写了一下*/
+  border: solid 1px #BBBBBB;
+    width:200px;
+	height:30px;
+	margin:20px 0 0 10px;
+	position:relative;
+	scrolling:no;
+  /*很关键：将默认的select选择框样式清除*/
+  appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+	
+  /*在选择框的最右侧中间显示小箭头图片*/
+  /*background: url("http://ourjs.github.io/static/2015/arrow.png") no-repeat scroll right center transparent;*/
+	background:url("../images/hd_sale_2.2.png")no-repeat 170px 1px;
+
+	
+  /*为下拉小箭头留出一点位置，避免被文字覆盖*/
+	padding-left:10px;
+	margin-left:4px;
+}
+
+
+
+
+/*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+select::-ms-expand { display: none; 
+}
+
+.submit {
+	width:160px;
+	height:70px;
+	background:url("../images/hd_sale_1.6.png") no-repeat left -486px;
+	border:none;
+	line-height:70px;
+	margin:20px 10px 0px 96px;
+	cursor:pointer;
+	font-family: 'Microsoft yahei';
+    color: #fff;
+    font-size: 18px;
+
+}
+
+
+
+
+
+#hd_middle #hd_middle_main #fill_form .form_right {
+	width:540px;
+	height:600px;
+	margin:50px 0 0 25px;
+	float:right;
+	border-left:1px dotted #E5E5E5;
+}
+
+#hd_middle #hd_middle_main #fill_form  .form_right p {
+	color:#666666;
+	font-size:16px;
+	font-weight:bold;
+	font-family:'Microsoft yahei';
+	float:left;
+}
+
+#hd_middle #hd_middle_main #fill_form  .form_right a {
+	color:#0066CC;
+	font-size:12px;
+	margin:0px 0 0 10px;
+	padding-top:30px;
+	display:block;
+	float:left;
+}
+
+#hd_middle #hd_middle_main #fill_form  .form_right p span {
+	color:#FF875A;
+	font-weight:bold;
+	padding-right:10px;
+	float:left;
+
+}
+#hd_middle #hd_middle_main #fill_form  .form_right a:hover {
+	color:#FF6600;
+}

@@ -1,0 +1,337 @@
+a:hover {
+	color:red;
+ 
+ }
+ 
+
+
+#middle-top {
+	height:30px;
+	background:white;
+}
+ 
+#middle-top  span {
+	font-weight:bold;
+	display:block;
+	color:#FF3C3C;
+	float:left;
+}
+
+#middle-top  p {
+	color:#333333;
+	float:left;
+	font-weight:bold;
+	margin-left:4px;
+}
+
+#middle-top ul li {
+	float:left;
+	padding:0 10px;
+	font-size:13px;
+	line-height:22px;
+
+}
+.middle_honor_left {
+	width:288px;
+	height:334px;
+	float:left;
+	background:#F4F2F2 url("../images/hd_honor1.1.png") no-repeat 0 70px;
+	margin-right:10px;
+	margin-bottom:30px;
+}
+
+.middle_honor_left .honor_p_1 {
+	color:#333333;
+	text-align:center;
+	font-size:13px;
+	font-family: "Microsoft YaHei";
+    margin-top: 20px;
+}
+
+
+.middle_honor_left a {
+	display: block;
+    width: 160px;
+    height: 35px;
+    background: url(../images/hd_hornor_1.2.png) -250px -307px;
+    text-indent: -9999px;
+	margin:20px 0 0 60px;
+}
+
+.middle_honor_kind {
+	width:950px;
+	height:50px;
+	background:#F4F2F2;
+	clear:both;
+}
+
+
+.middle_honor_kind ul li {
+	width:160px;
+	line-height:50px;
+	text-align:center;	
+	float:left;
+	margin-right:1px;
+	position:relative;
+	
+}
+
+
+
+.kind_red {
+	width:160px;
+	line-height:50px;
+	text-align:center;	
+	color:white;
+	background:#FE6854;
+	margin-right:1px;
+	position:absolute;
+	z-index:5;
+	
+}
+
+.xz_main {
+	width:950px;
+	height:612px;
+	background:#EDEDED;
+	float:left;
+}
+
+.xz_main  .xz_top {
+	width:880px;
+	height:100px;
+	margin:0 auto;
+	text-align:center;
+	font-size:18px;
+	padding-top:50px;
+	border-bottom:2px solid #E9E9E9;
+}
+.xz_main  .xz_top a {
+	color:blue;
+	
+}
+.xz_main  .xz_bottom {
+	width:880px;
+	height:370px;
+	margin:0 auto;
+	text-align:center;
+	font-size:18px;
+	margin-top:40px;
+}
+
+
+
+.xz_main  .xz_bottom ul li {
+	width:190px;
+	float:left;
+	
+	margin:30px 50px 0 30px;
+}
+
+.xz_main  .xz_bottom ul li p {
+	font-size:15px;
+	line-height:20px;
+	text-align:left;
+	color:#737373;
+	margin:5px 12px 5px 20px;
+	font-size:12px;
+	padding-top:15px;
+}
+
+
+.xz_main  .xz_top p {
+	margin-top:5px;
+	color:#666666;
+	font-size:18px;
+	
+}
+
+.xz_right {
+	width:248px;
+	height:660px;
+	margin:-50px 0 0 0;
+	border:1px solid #EDEDED;
+	float:left;
+
+}
+
+
+.xz_right  p {
+	text-align:center;
+	font-size:18px;
+	margin:50px 0 20px 0;
+
+}
+
+.xz_right .xz_t1 {
+	width:190px;
+	height:30px;
+	border-radius:10px;
+	border:1px solid #EEEEEE;
+	margin:0 30px;
+	padding-left:10px;
+	position:relative;
+}
+
+
+.xz_right  .btn {
+    position: absolute;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    top:495px;
+    right: 30px;
+    background: url(../images/sprite_icon.png?1732359) -161px -173px;
+}
+
+
+.xz_border {
+	width:230px;
+	height:1px;
+	background:#EDEDED;
+	margin: 0  auto;
+	
+}
+
+.xz_border  p {
+	font-size:15px;
+	position:relative;
+	top:-8px;
+	z-index:5;
+	color:#747D87;
+	
+}
+
+
+.xz_border  .clear_line {
+	width:72px;
+	height:1px;
+	background:white;
+	position:relative;
+	top:-37px;
+	left:80px;
+}
+
+
+.xz_right  .ul_xz li {
+	width:248px;
+	
+}
+
+.xz_right  .ul_xz li .xz_pic li {
+	width:230px;
+	height:120px;
+
+	margin:10px auto;
+	border-bottom:1px dotted #EEEEEE;
+
+}
+
+.xz_right  .ul_xz li .xz_pic li img {
+	width:70px;
+	height:70px;
+	margin:20px 0 20px 30px;
+	float:left;
+
+}
+
+.xz_right  .ul_xz li .xz_pic li span {
+	float:left;
+	display:block;
+	font-size: 14px;
+    font-weight: normal;
+    font-family: "MICROSOFT YAHEI";
+    color: #333;
+}
+
+.xz_right  .ul_xz li .xz_pic li .xz_sp1 {
+	margin:25px 0 0 15px;
+	
+}
+
+.xz_right  .ul_xz li .xz_pic li .xz_sp2 {
+	margin:10px 0 0 15px;
+	color: #666;
+}
+
+.xz_btn {
+
+	
+}
+.xz_btn  span {
+	display: inline-block;
+    font-family: 'tahoma';
+    margin: 30px 18px 0 18px ;
+    color: #999;
+	font-size:12px;
+
+}
+
+
+.xz_btn .xz_left_btn {
+	float:left;
+	width:30px;
+	height:25px;
+	display:block;
+	border-radius:50%;
+	border:1px solid #EBEBEB;
+	text-align:center;
+	padding-top:5px;
+	margin:20px 0 0  65px;
+	color:#EBEBEB;
+	font-weight:bold;
+}
+
+.xz_btn .xz_right_btn {
+	float:right;
+	width:30px;
+	height:25px;
+	border-radius:50%;
+	display:block;
+	border:1px solid #EBEBEB;
+	text-align:center;
+	padding-top:5px;
+	margin:-24px 65px 0  0px;
+	color:#EBEBEB;
+	font-weight:bold;
+}
+
+
+
+
+.xz_do {
+	width:100%;
+	height:212px;
+	margin:5px 0 0 0;
+	background:#FAFAFA;
+	clear:both;
+	position:relative;
+}
+
+.xz_do  .do_bg {
+	width:157px;
+	height:60px;
+	width: 150px;
+    height: 57px;
+    background: url(../images/sprite_icon.png?1732359) -193px -120px;
+	margin:-2px 0 0 100px;
+	position:absolute;
+	top:-3px;
+	
+}
+
+.xz_do  p {
+	font-size:12px;
+	padding:80px 0 0  0;
+	margin:0 100px;
+	color:#666666;
+}
+
+.xz_do  a {
+	display:block;
+	margin:30px 110px 0 0 ;
+	color:#666666;
+	font-size:13px;
+	float:right;
+
+}

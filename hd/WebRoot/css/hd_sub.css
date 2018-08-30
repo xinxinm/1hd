@@ -1,0 +1,199 @@
+body {
+	background:#F5F5F5;
+}
+* {
+	margin:0;
+	padding:0;
+}
+
+#hd_middle {
+	width:100%;
+	background:#F5F5F5;
+	height:1650px;
+}
+
+#hd_middle_main {
+	width:1200px;
+	margin:0 auto;
+}
+#hd_middle #hd_middle_main #hd_middle_nav {
+	width:1200px;
+	height:35px;
+	background:#F33939;
+	margin:0 auto;
+}
+
+#hd_middle #hd_middle_main #hd_middle_nav ul {
+	margin:0 0 0 240px;
+}
+
+#hd_middle #hd_middle_main  #hd_middle_nav ul li {
+	width:89px;
+	height:35px;
+	float:left;
+	line-height:35px;
+	text-align:center;
+	cursor:pointer;
+}
+
+#hd_middle #hd_middle_main  #hd_middle_nav ul li a {
+	color:#fff;
+	font-size:13px;
+	font-weight:bold;
+}
+
+#hd_middle  #hd_middle_main #hd_middle_nav ul li:hover {
+	background:#C40000;
+}
+
+#hd_middle #hd_middle_main #hd_middle_nav ul .first_li {
+	width:62px;
+	background:white;
+}
+#hd_middle #hd_middle_main #hd_middle_nav ul .first_li a {
+	color:red;
+}
+
+#hd_middle #hd_middle_main #hd_middle_nav ul .first_li:hover {
+	background:#fff;
+}
+
+#hd_sub_main {
+	height:469px;
+}
+
+#hd_sub_main  img {
+	float:left;
+	margin:10px 0 0 0;
+}
+
+#hd_sub_main   .sub_form {
+	width:392px;
+	height:305px;
+	float:right;
+	margin:10px 50px 0 0;
+	border:1px solid #EBEBEB;
+}
+
+#hd_sub_main   .sub_form .sub_1 {
+	height:65px;
+	border-bottom: 1px dotted #ececec;
+}
+
+#hd_sub_main   .sub_form .sub_1 p {
+	text-align:center;
+	padding:25px 0;
+    font-size: 16px;
+    font-weight: normal;
+	color: #666;
+    font-family: 'Microsoft YaHei';
+}
+
+#hd_sub_main   .sub_form .sub_2 {
+	height:170px;
+}
+#hd_sub_main   .sub_form .sub_2 .sp1 {
+	padding:23px 0 0 32px;
+	color:#333333;
+	float:left;
+}
+
+#hd_sub_main   .sub_form .sub_2 .sp2 {
+	padding:23px 0 0 65px;
+	color:#333333;
+	float:left;
+}
+
+#hd_sub_main   .sub_form .sub_2  #user {
+   width:180px;
+   margin:20px 0 0 4px;
+   border:1px solid #DBDBDB;
+   height:22px;
+   float:left;
+}
+
+
+
+#hd_sub_main   .sub_form .sub_2 #user_prompt {
+	float:left;
+	font-size:12px;
+	color:#F65F0D;
+	padding:25px 0 0 5px;
+}
+
+#hd_sub_main   .sub_form .sub_2  #pwd {
+	width:180px;
+	height:22px;
+	margin:20px 0 0 4px;
+	border:1px solid #DBDBDB;
+	float:left;
+}
+
+
+
+#hd_sub_main   .sub_form .sub_2 #pwd_prompt{
+	
+	font-size:12px;
+	color:#F65F0D;
+	padding:25px 0 0 5px;
+	float:left;
+}
+
+
+
+#hd_sub_main   .sub_form .sub_2 #checkbox {
+	float:left;
+	margin: 30px 0 0 110px;
+}
+
+#hd_sub_main   .sub_form .sub_2  .sp3{
+	display:block;
+	font-size:12px;
+	width: auto;
+    margin:30px 0 0 5px;
+    color: #999;
+    font-size: 12px;
+    vertical-align: middle;
+	float:left;
+}
+
+#hd_sub_main   .sub_form .sub_3  #btn1 {
+	width:75px;
+	height:30px;
+	background:#F4730C;
+	border:3px solid #F65F0D;
+	color:white;
+	font-size:14px;
+	margin:5px 0 0 80px;
+	float:left;
+}
+
+#hd_sub_main   .sub_form .sub_3  a {
+	display:block;
+	color: #06c;
+	float:left;
+	margin:13px 0 0 10px;
+	font-size:12px;
+}
+
+#hd_sub_main   .sub_form .sub_3  a:hover {
+	color:#FF6600;
+}
+
+
+.hd_footer_bg {
+	width:100%;
+	height:160px;
+	background:white;
+}
+
+.hd_footer_bg .footer_main {
+	width:1200px;
+	height:160px;
+	background:#F5F5F5;
+	margin:0 auto;
+}
+
+.bd {
+	border:2px solid #FCBB4F;
+}
